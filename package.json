@@ -1,0 +1,36 @@
+{
+  "name": "alphaforge",
+  "version": "1.0.0",
+  "description": "AI-driven algorithm evolution platform - Open source clone of Google DeepMind's AlphaEvolve",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "jest",
+    "docker:build": "docker build -t alphaforge .",
+    "docker:compose": "docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ss2chatgpt2/alphaforge.git"
+  },
+  "keywords": [
+    "ai",
+    "algorithm",
+    "evolution",
+    "optimization",
+    "llm",
+    "genetic-programming",
+    "automated-programming",
+    "code-generation",
+    "machine-learning"
+  ],
+  "author": "AlphaForge Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ss2chatgpt2/alphaforge/issues"
+  },
+  "homepage": "https://alphaforge.dev"
+}
